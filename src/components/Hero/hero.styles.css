@@ -22,6 +22,7 @@
 
 .title-today {
     color: #FFA17A;
+    font-weight: 700;
 }
 
 .sub-title {
@@ -33,6 +34,7 @@
 
 .sub-title-tomorrow {
     color: #A3DA8D;
+    font-weight: 700;
 }
 
 /* subsection */
