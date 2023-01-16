@@ -1,0 +1,31 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter-container {
+    width: 176.63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.counter-img {
+    width: 119.74px;
+    height: 119.74px;
+}
+
+.counter-title {
+    line-height: 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 64.5388px;
+    color: #146356;
+}
+
+.counter-subtitle {
+    line-height: 0;
+    font-weight: 600;
+    font-size: 15.3807px;
+}
