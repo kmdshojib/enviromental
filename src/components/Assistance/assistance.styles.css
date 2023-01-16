@@ -1,0 +1,25 @@
+.assist-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.assist-title {
+    width: 475.55px;
+    height: 95.11px;
+    font-weight: 600;
+    font-size: 35.6662px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.assist-card-text {
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    letter-spacing: 0.424597px;
+    color: #575757;
+}
+
+.assist-card {
+    width: 323.54px;
+}
