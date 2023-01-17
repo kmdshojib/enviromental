@@ -29,3 +29,10 @@
     font-weight: 600;
     font-size: 15.3807px;
 }
+/* mobile tablet */
+@media screen and (max-width:1070px){
+    .counter{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

@@ -80,3 +80,14 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap:10px;
 }
+/* mobile and tablet */
+@media screen and (max-width:1070px){
+    .benefactor-card-layout{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:740px){
+    .benefactor-card-layout{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

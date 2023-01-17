@@ -35,3 +35,26 @@
     border: none;
     border-radius: 3.39678px;
 }
+@media screen and (max-width:975px){
+    .take-action-title{
+        font-size: 20px;
+    }
+    .take-action-subtitle{
+        font-size: 12px;
+        width: 307.61px;
+    }
+}
+@media screen and (max-width:600px){
+    .take-action-container{
+        flex-direction: column;
+    }
+    .take-action-title{
+        margin-bottom: 0;
+    }
+    .take-action-subtitle{
+        height: 50px;
+    }
+    .take-action-button{
+        margin-bottom: 20px;
+    }
+}
