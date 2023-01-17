@@ -5,6 +5,7 @@ import CaseStudy from '../components/Case-study/CaseStudy'
 import Counter from '../components/Counter/Counter'
 import Hero from '../components/Hero/Hero'
 import PllutionCard from '../components/Pollution-card/PllutionCard'
+import Quatation from '../components/quatation/quatation'
 import TakeAction from '../components/TakeAction/TakeAction'
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <TakeAction />
         <Benefactor />
         <CaseStudy />
+        <Quatation />
     </div>
   )
 }

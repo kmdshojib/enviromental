@@ -2,6 +2,8 @@ import React from 'react'
 import "./casestudy.styles.css"
 
 import FireIamge from "../../assets/fire.png"
+import leftArrow from "../../assets/leftArrow.png"
+import rightarrow from "../../assets/rightArrow.png"
 
 const CaseStudy = () => {
     return (
@@ -32,6 +34,10 @@ const CaseStudy = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='arrow'>
+                <img src={leftArrow} alt="arrow" className="left-arrow" />
+                <img src={rightarrow} alt="arrow" className="right-arrow" />
             </div>
         </div>
     )

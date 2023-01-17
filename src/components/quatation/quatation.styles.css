@@ -1,0 +1,52 @@
+.quatation-card {
+    width: 323.54px;
+    height: 327.52px;
+    background: #FAFAFA;
+    padding: 30px 10px 10px 20px;
+
+}
+
+.quote {
+    width: 40.76px;
+    height: 26.82px;
+}
+
+.quote-des{
+    width: 281.93px;
+    height: 198px;
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    letter-spacing: 0.424597px;
+    margin-bottom: 0;
+
+}
+
+.quote-container {
+    display: flex;
+   
+}
+
+.quote-container img {
+    width: 42.27px;
+    height: 42.27px;
+}
+.quote-intro{
+    margin-top: -15px;
+    margin-left: 10px;
+}
+.intro-name {
+    font-weight: 600;
+    font-size: 16.9839px;
+    line-height: 23px;
+    letter-spacing: 0.254758px;
+    margin-bottom: 0;
+}
+
+.intro-title {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+    color: #575757;
+}
