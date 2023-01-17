@@ -1,25 +1,82 @@
-.benefactor-title{
+.benefactor-title {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 .benefactor-title h1 {
-    width:346.47px;
-    height:58.59px;
+    width: 346.47px;
+    height: 58.59px;
     font-weight: 600;
     font-size: 35.6662px;
     line-height: 80px;
     margin: 0;
     text-align: center;
 }
-.border1,.border2{
+
+.border1,
+.border2 {
     width: 311.65px;
     border: 1.69839px solid #A3DA8D;
 }
-.border2{
+
+.border2 {
     border: 1.69839px solid #A3DA8D;
     margin-top: 2px;
     margin-left: 35px;
+}
+
+.benfactor-img {
+    width: 323.54px;
+    height: 283.93px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 125.68px;
+    height: 20px;
+    display: none;
+}
+
+.benfactor-img:hover {
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    opacity: .8;
+}
+
+.benfactor-img:hover>.social-icon {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.benefactor-card h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+    letter-spacing: 0.424597px;
+    color: #575757;
+}
+
+.benefactor-card p {
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+    letter-spacing: 0.424597px;
+    color: #575757;
+    margin: 0;
+}
+.benefactor-card-layout{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:10px;
 }
