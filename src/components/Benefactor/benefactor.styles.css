@@ -1,0 +1,25 @@
+.benefactor-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.benefactor-title h1 {
+    width:346.47px;
+    height:58.59px;
+    font-weight: 600;
+    font-size: 35.6662px;
+    line-height: 80px;
+    margin: 0;
+    text-align: center;
+}
+.border1,.border2{
+    width: 311.65px;
+    border: 1.69839px solid #A3DA8D;
+}
+.border2{
+    border: 1.69839px solid #A3DA8D;
+    margin-top: 2px;
+    margin-left: 35px;
+}

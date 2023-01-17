@@ -44,7 +44,7 @@ const Counter = () => {
                     counterData.map(({startTime,endTime,imgUrl,description,partner,decimals}) => (
                         <div className='counter-container'>
                             <img className='counter-img' src={imgUrl} alt="progressbar" />
-                            <h1 className='counter-title'><CountUp start={startTime} end={endTime} decimal={decimals} enableScrollSpy /><span>{partner}</span></h1>
+                            <h1 className='counter-title'><CountUp start={startTime} end={endTime} decimal={decimals} enableScrollSpy scrollSpyOnce /><span>{partner}</span></h1>
                             <p className='counter-subtitle'>{description}</p>
                         </div>
                     ))

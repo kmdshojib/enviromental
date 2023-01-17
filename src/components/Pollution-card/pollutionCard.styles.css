@@ -1,0 +1,117 @@
+.pollution-card {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.pollution-card-container {
+    background-size: cover;
+    background-repeat: repeat;
+    border-radius: 3.39678px;
+    width: 322.69px;
+    height: 518.01px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pollution-title {
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 10.1903px;
+    line-height: 14px;
+    letter-spacing: 2.54px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.pollution-description {
+    width: 295.52px;
+    height: 81.52px;
+    font-weight: 600;
+    font-size: 20.3807px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    margin-left: 15px;
+    color: #fff;
+    margin-top: 0;
+}
+
+/* progressbar */
+.donate-section {
+    margin-bottom: 25px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.collaboration p {
+    font-weight: 500;
+    font-size: 15.2855px;
+    line-height: 25px;
+    letter-spacing: 0.424597px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.pollution-card-container:hover>.donate-section {
+    display: flex;
+    cursor: pointer;
+}
+
+.progress-bar {
+    width: 295.52px;
+    height: 7px;
+    border: 0.849195px solid #A3DA8D;
+    border-radius: 3.39678px;
+}
+
+.progress-line {
+    width: 225.04px;
+    height: 7px;
+    background: #A3DA8D;
+    border-radius: 3.39678px;
+}
+
+.percentage {
+    margin-left: 67%;
+    margin-bottom: 0;
+    width: 25.48px;
+    height: 19.53px;
+    color: #A3DA8D;
+    letter-spacing: 0.424597px;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.raised,
+.goal {
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+    color: #FFFFFF;
+    letter-spacing: .424px;
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.progress-btn {
+    width: 100.87px;
+    height: 30.17px;
+    box-sizing: border-box;
+    border-radius: 3.39678px;
+    border: 1.27379px solid #FAFAFA;
+    text-align: center;
+    align-self: center;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-left: 0 !important;
+    background: transparent;
+    color: #fff;
+    margin-bottom: 15px;
+}
