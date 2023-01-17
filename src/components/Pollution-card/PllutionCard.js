@@ -8,7 +8,7 @@ const PllutionCard = () => {
   
     return (
         <div className='spacing pollution-card'>
-            <div style={{ background: `url(${airpollution})` }} className="pollution-card-container">
+            <div style={{ background: `url(${airpollution})`,zIndex:"100" }} className="pollution-card-container">
                 <p className="pollution-title">Air Pollution</p>
                 <h4 className="pollution-description">What’s currently happening in Air Pollution all around the world? AQI region-wise.</h4>
 

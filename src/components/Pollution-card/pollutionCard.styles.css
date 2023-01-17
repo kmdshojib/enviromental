@@ -22,6 +22,7 @@
     text-transform: uppercase;
     color: #fff;
     margin-left: 15px;
+    z-index:1;
 }
 
 .pollution-description {
@@ -34,6 +35,7 @@
     margin-left: 15px;
     color: #fff;
     margin-top: 0;
+    z-index:1;
 }
 
 /* progressbar */
@@ -57,6 +59,7 @@
 .pollution-card-container:hover>.donate-section {
     display: flex;
     cursor: pointer;
+    z-index:1;
 }
 
 .progress-bar {
@@ -71,6 +74,7 @@
     height: 7px;
     background: #A3DA8D;
     border-radius: 3.39678px;
+    z-index:1;
 }
 
 .percentage {
@@ -80,6 +84,7 @@
     height: 19.53px;
     color: #A3DA8D;
     letter-spacing: 0.424597px;
+    z-index:1;
 }
 
 .money {
@@ -87,6 +92,7 @@
     justify-content: space-between;
     margin-right: 15px;
     margin-bottom: 15px;
+    z-index:1;
 }
 
 .raised,
@@ -98,6 +104,7 @@
     letter-spacing: .424px;
     margin: 0;
     padding-bottom: 25px;
+    z-index:1;
 }
 
 .progress-btn {
@@ -114,4 +121,12 @@
     background: transparent;
     color: #fff;
     margin-bottom: 15px;
+    z-index:1;
+}
+.pollution-card-container:hover::after{
+    content: "";
+    width: 322.69px;
+    height: 518.01px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(20, 99, 86, 0.9), rgba(20, 99, 86, 0.9)) !important;
 }
