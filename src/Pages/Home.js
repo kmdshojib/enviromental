@@ -1,6 +1,7 @@
 import React from 'react'
 import Assitance from '../components/Assistance/Assitance'
 import Benefactor from '../components/Benefactor/Benefactor'
+import CaseStudy from '../components/Case-study/CaseStudy'
 import Counter from '../components/Counter/Counter'
 import Hero from '../components/Hero/Hero'
 import PllutionCard from '../components/Pollution-card/PllutionCard'
@@ -15,6 +16,7 @@ const Home = () => {
         <PllutionCard />
         <TakeAction />
         <Benefactor />
+        <CaseStudy />
     </div>
   )
 }

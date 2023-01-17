@@ -53,7 +53,7 @@ const Benefactor = () => {
         },
     ]
     return (
-        <div className='spacing'>
+        <div className='spacing benefactor-container'>
             <div className='benefactor-title'>
                 <h1>Our Benefactors</h1>
                 <div className='border1'></div>

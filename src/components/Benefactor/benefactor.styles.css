@@ -1,12 +1,16 @@
-.benefactor-title {
+.benefactor-container{
+    margin-top: 20px;
+}
+.benefactor-title, .case-study-title {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
-.benefactor-title h1 {
+.benefactor-title h1, .case-study-title h1 {
     width: 346.47px;
     height: 58.59px;
     font-weight: 600;
