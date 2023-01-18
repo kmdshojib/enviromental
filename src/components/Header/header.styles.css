@@ -1,0 +1,92 @@
+.header-container {}
+
+.header-section1 {
+    background: #0E0E0E;
+    width: 100%;
+    height: 33.97px;
+}
+
+.section1-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-social-link {
+    padding-top: 5px;
+    width: 158.8px;
+    height: 15.29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-casue {
+    display: flex;
+}
+
+.finger {
+    padding-top: 8px;
+    width: 13.59px;
+    height: 13.59px;
+    object-fit: cover;
+}
+
+.join-vol {
+    font-weight: 600;
+    font-size: 11.8887px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.header-section2 {
+    background: #146356;
+    box-shadow: 0px 10.1903px 42.4597px 21.2299px rgba(2, 43, 58, 0.08);
+    height: 84.92px;
+    width: 100%;
+}
+
+.section2-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.help-fight {
+    width: 145.21px;
+    height: 39.06px;
+    left: 946.85px;
+    background: #FFA17A;
+    border-radius: 3.39678px;
+    border: none;
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 13.5871px;
+    line-height: 18px;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.search,
+.logo {
+    padding-top: 10px;
+}
+
+.search-icon {
+    padding-right: 10px;
+}
+
+.nav-link:hover::after {
+    content: url("../../assets/headerImage/navArrow.png");
+    padding-left: 2px;
+}
+
+.nav-link:hover {
+    color: #A3DA8D;
+}
