@@ -2,7 +2,9 @@ import React from 'react'
 import "./ClimateSustain.styles.css"
 import videothumnail from "../../assets/OurCasue/overclimate.png"
 
+
 const ClimateSustain = () => {
+  
     return (
         <div className='climate'>
             <div className='spacing climate-container'>
