@@ -1,0 +1,43 @@
+.ourstory-container {
+    display: flex;
+    margin-right: 69px;
+    height: 651.63px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cube {
+    width: 27.15px;
+    height: 27.15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.intro-who {
+
+    font-weight: 700;
+    font-size: 10.1817px;
+    line-height: 14px;
+    letter-spacing: 2.54543px;
+    color: #146356;
+}
+
+.intro-des {
+    width: 573.57px;
+    height: 100.12px;
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    letter-spacing: 0.424238px;
+    color: #575757;
+}
+
+.cube-container {
+    display: flex;
+}
+
+.cube-text {
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+}

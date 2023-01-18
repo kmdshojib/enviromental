@@ -1,0 +1,29 @@
+.climate {
+    background: #FAFAFA;
+    height: 594.78px;
+    width: 100%;
+
+}
+
+.climate-container {
+    display: flex;
+
+}
+
+.claimate-second {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.climatebtn {
+    border: 1.27271px solid #146356;
+    border-radius: 3.3939px;
+    height: 46.15px;
+    background: transparent;
+    color: #146356;
+    cursor: pointer;
+}
+.climatebtn:hover{
+    background: #146356;
+    color: #fff;
+}
