@@ -1,0 +1,57 @@
+.helpinghand {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 502.3px;
+    background: #146356;
+}
+
+.helpinghand-title {
+    font-weight: 600;
+    font-size: 27.1512px;
+    line-height: 36px;
+    color: #F3EADA;
+    width: 309.69px;
+    height: 73px;
+}
+
+.hand-tit {
+    margin-top: 5%;
+}
+
+.helping-hand-name {
+    font-weight: 600;
+    font-size: 16.9695px;
+    line-height: 23px;
+    color: #F3EADA;
+
+}
+
+.helping-hand-title {
+    font-weight: 600;
+    font-size: 11.8787px;
+    line-height: 19px;
+    color: #5B9289;
+}
+
+.helpinghand-sub {
+    font-weight: 500;
+    font-size: 15.2726px;
+    line-height: 25px;
+    color: #B9D1CD;
+    width: 271.51px;
+    height: 74px;
+}
+
+.helpinghand-con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hand-img {
+    margin-top: 50px;
+    display: flex;
+}
+.hand-img div{
+    margin-right: 5px;
+}
