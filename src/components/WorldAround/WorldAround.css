@@ -1,0 +1,47 @@
+.around-intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.around-intro h1 {
+    margin: 0;
+}
+
+.review-container {
+    width: 498.06px;
+    background: #FAFAFA;
+    box-shadow: 0px 3.3939px 8.48475px rgba(183, 183, 183, 0.15);
+    border-radius: 3.3939px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review-img {
+    display: flex;
+}
+
+.review-img img {
+    width: 47.51px;
+    height: 47.51px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.review-name {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.review-name p{
+    margin: 0;
+}
+.review-name img {
+    width: 50.91px;
+    height: 10.18px;
+}
+.around2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
