@@ -1,0 +1,30 @@
+.cause-hero {
+    width: 100%;
+    height: 471.75px;
+    background: linear-gradient(-55deg, rgba(0, 0, 0, 0.1) 40%, rgba(0, 0, 0, 0.2) 40%, rgba(0, 0, 0, 0.4) 20%, rgba(0, 0, 0, 0.4) 10%), url("../../assets/OurCasue/ourCasueHero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: ;
+}
+
+.casue-container {
+    width: 526.05px;
+    padding-top: 2%;
+}
+
+.cause-title2 {
+    padding-left: 155px;
+}
+
+.hrline {
+    border: 0.848475px solid #F3EADA;
+    width: 526.05px;
+}
+
+.cause-title {
+    font-weight: 700;
+    font-size: 64.4841px;
+    line-height: 86px;
+    color: #FFF;
+}
